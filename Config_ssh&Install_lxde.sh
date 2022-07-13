@@ -1,7 +1,5 @@
 #!/bin/bash
 
-# Credit to this RedHat Article, which contains the non modified version of the script, (this version has no errors with WSL Debian).
-# https://www.redhat.com/sysadmin/bash-script-configure-ssh
 apt update
 
 apt-get install openssh-server -y
